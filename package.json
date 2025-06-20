@@ -1,0 +1,23 @@
+{
+  "name": "site-info-browser-ext",
+  "version": "1.0.0",
+  "description": "Analyze site fonts, colors, and technologies.",
+  "author": "Austin",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack --mode production",
+    "dev": "webpack --mode development --watch",
+    "icons": "node generate-icons.js",
+    "package": "npm run build && cd dist && zip -r ../site-info-extension.zip *"
+  },
+  "devDependencies": {
+    "copy-webpack-plugin": "^13.0.0",
+    "css-loader": "^7.1.2",
+    "file-loader": "^6.2.0",
+    "sharp": "^0.34.2",
+    "style-loader": "^4.0.0",
+    "svg-url-loader": "^8.0.0",
+    "webpack": "^5.0.0",
+    "webpack-cli": "^4.0.0"
+  }
+}

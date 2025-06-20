@@ -1,0 +1,25 @@
+# See https://github.com/github/gitignore/blob/main/Node.gitignore
+node_modules/
+dist/
+.env
+.DS_Store
+*.log
+*.local
+*.sublime*
+.vscode/
+.idea/
+coverage/
+*.pem
+*.crt
+*.key
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Extension build artifacts
+*.zip
+*.crx
+*.safariextension
+
+# Mac system files
+Icon?
