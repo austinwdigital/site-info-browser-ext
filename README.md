@@ -1,5 +1,7 @@
 # Site Info Browser Extension
 
+> **Note:** This is very much a work in progress and created just for fun! Feel free to try it out and contribute.
+
 This extension analyzes the current web page and displays:
 
 - Font families, type scale, font sizes for headings (h1-h6), line heights, and font weights
@@ -42,6 +44,30 @@ This extension analyzes the current web page and displays:
 4. Copy files from the `dist/` directory to the appropriate locations in your Xcode project
 5. Configure the `Info.plist` file with appropriate permissions
 6. Build and run the extension in Safari
+
+## Contributing
+
+Contributions are very welcome! This project is great for first-time contributors and those looking to gain experience with browser extensions.
+
+Here are some ways you can contribute:
+
+- Report bugs or suggest features by opening issues
+- Improve detection for additional technologies and frameworks
+- Enhance the UI/UX of the popup interface
+- Add support for additional browsers
+- Improve color role detection or font classification
+- Fix existing issues in the codebase
+
+To contribute:
+
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Make your changes
+4. Commit your changes (`git commit -m 'Add some amazing feature'`)
+5. Push to the branch (`git push origin feature/amazing-feature`)
+6. Open a Pull Request
+
+No contribution is too small, and all feedback is appreciated!
 
 ## Development
 
